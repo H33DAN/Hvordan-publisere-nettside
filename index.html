@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+	<h1> Hvordan publisere nettside i Github </h1><br><br>
+	</head>
+<head>
+	<link rel="stylesheet" href="Fargecss.css"> 
+	<!-- dette er ett stilark for å velde farge på bakgrunnen, skrifttype, sroftfarge og størrelse -->
+	<title> Hvordan publisere noe på Github </title>
+	<h1> Trinn 1: Lag et oppbevaringssted </h1>
+	<!-- h1 gjør at man får en stor overskrift -->
+</head>
+<body> 
+	<P> For å kunne publisere noe på Github, må man først lage et oppbevaringssted. Dette brukes vanligvis til å organisere <br> 
+	et enkelt prosjekt. Her kan man oppbevare alt prosjektet ditt trenger. Først går du opp i høyre hjørne ved siden av avataren din og klikker på pluss-tegnet og velger "New repository". <br>
+	Deretter gir du oppbevaringsstedet ditt navnet "hello-world". Skriv så en liten beskrivelse. Velg så "Initialize this repository with README<br><br></p>
+	<!-- kommandoen br funker som "enter" i kodingen -->
+	<img src="create-new-repo.png" alt="Bilde 1" width="800" height="400">
+	<!-- Her lagger jeg inn et skjermbilde, og bruker oppskriften fra boka for å gjøre det -->
+</body>
+<head>
+	<h1> Trinn 2: Lag en gren </h1>
+	<!-- Samme fremgangsmåte som tidligere -->
+</head>
+<body>
+	<p> Forgrening er dem måten man jobber på forskjellige versjoner av et depot på en gang. Standarden for depoet er en avdeling som heter "master" som den definitive grenen. <br>
+	Man bruker grener til eksprementere og foreta endringer før de forplikter dem til "master". Når du lager en gren av "master"-grenen, lager du i prinsippet <br>
+	en kopi eller et øyeblikksbilde av "master" som det var på det tidspunktet. Hvis noen andre gjode endringer i "master"-grenen mens du jobbet på din gren, kan du trekke inn de oppdateringene.<br><br></p>
+	<p> <h2> Å opprette en ny avdeling </h2><br>
+	1. Gå til dit nye lager "hello-world"<br>
+	2. Klikk på rullegardinmenyen øverst på fillisten som sier "gren: master"<br>
+	3. Skriv inn et filnavn "readme-edits" i tekstboken for nye grener".<br>
+	4. Velg det blå opprettingsfeltet eller trykk"enter" på tastaturet.<br><br></p>
+	<img src="Skjermbilde.PNG" alt="Bilde 2" width="600" height="400">
+</body>
+<head>
+	<h1> Trinn 3: Lag og foreta endringer </h1>
+</head>
+<body>
+	<p> Nå skal "readme-edits" filen være en kopi av "master" filen. Dette må vi forandre.<br><br></p>
+	<p> <h2> Lag og foreta dine endringer </h2><br><br>
+	1. Klikk på "README.MD" filen.<br>
+	2. Klikk på blyant-ikonet øverst til høyre i filvisningen for å redigere.<br>
+	3. Skriv i redaktøren litt om deg selv.<br>
+	4. Skriv en "commit message" som beskriver endringene dine.<br>
+	5. Klikk på "Commit changes" knappen<br><br>
+	Disse endringene blir bare gjort i "README"-filen. "Master"-filen blir uforandret.<br><br></p>
+	<img src="Skjermbilde5.png" alt="Bilde 3" width="800" height="500">
+</body>
+<head>
+	<h1> Trinn 4: Åpne en trekkforespørsel </h1>
+</head>
+<body>
+	<p> Trekkforespørsler er hjertet i sammarbeidet på Github, så nå kan du åpne en trekkforespørsel i grenen "master". Når du gjør dette,<br>
+	foreslår du endringene dine og ber om at noen gjennomgår og drar inn ditt bidrag og slår dem sammen i grenen. Trekkforespørsler viser "diffs" eller forskjeller av innholdet fra begge grenene.<br>
+	Endringene, tilleggene og fratrekkene vises i grønt og rødt. <br><br></p>
+	<p>Når du gjør forpliktelse, kan du åpne en trekkforespørsel og starte en diskusjon, self før koden er ferdig.<br>
+	Du kan også bruke Githubs "@mention-system" i forespørselsmeldingen din. Da kan du be om tilbakemelding fra bestemte personer eller grupper, enten om de er nær eller langt borte.<br>
+	Du kan til og med åpne trekkfårespørsler i ditt eget lager og slå dem sammen. Det er en fin måte å lære Github-strømmen på før du arbeider med større prosjekter.<br></p>
+	<img src="Skjermbilde2.png" alt="Bilde 4" width="700" height="700">
+	<img src="Skjermbilde3.png" alt="Bilde 5" width="600" height="500">
+</body>
+<head>
+	<h1> Trinn 5: Slett din trekkforespørsel </h1>
+</head>
+<body>
+	<p> Dette er det siste trinnet. Her skal du bringe sammen endringene. Sla sammen "readme-edits"-grenen din i "master"-grenen:<br>
+	1. Klikk på den grønne "Merge pull request" knappen for å slå sammen endringene i "master".<br>
+	2. Klikk på "Confirm merge".<br>
+	3. Ta å slett grenen, siden endringene er blitt gjort, med "delete branch" knappen på den lilla boksen.</p>
+	<img src="Skjermbilde4.png" alt="Bilde 6" width="1000" height="400">
+</body>
+</html>
